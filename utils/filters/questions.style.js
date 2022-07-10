@@ -139,7 +139,7 @@ export default styled.div`
   .newResultBtn {
     background-color: #ccc;
     font-size: 18px;
-    color: #fff;
+    color: #000;
     padding: 8px 16px;
     text-align: left;
     width: 190px;

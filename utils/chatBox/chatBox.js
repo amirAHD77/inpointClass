@@ -73,7 +73,7 @@ const ChatBox = (props) => {
           )}
           {props.disableChat && (
             <div className="disabled">
-              <div style={{ color: "#000" }}>چت غیرفعال می‌باشد</div>
+              <div style={{ color: "#fff" }}>چت غیرفعال می‌باشد</div>
             </div>
           )}
         </div>

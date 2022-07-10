@@ -52,7 +52,7 @@ a {
   border: 0;
 }
 .dropdown-menu {
-  background-color: rgb(60, 90, 130) !important;
+  background-color: #5b5b5b !important;
   padding: 8px 16px !important;
   border-radius: 6px !important;
   min-width: unset !important;

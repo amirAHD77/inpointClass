@@ -77,7 +77,7 @@ const UserPass = (props) => {
             />
           </div>
 
-          <div className="w-100">
+          <div className="w-100 mt-4">
             <Field
               className="input"
               name="user_name"

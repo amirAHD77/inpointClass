@@ -34,10 +34,8 @@ const Login = (props) => {
           <div className="col-sm-12 col-md-10 orangeBox d-none d-md-block">
             <img className="img" src={pic.src} alt="لوگو" />
             <p className="heading">این‌پوینت کانکت</p>
-            <p className="caption">
-              پلتفرم اختصاصی برگزاری کلاس و همایش های آنلاین
-            </p>
-            <p
+            <p className="caption">پلتفرم اختصاصی برگزاری رویداد های مجازی</p>
+            {/* <p
               style={{
                 position: "absolute",
                 width: "100%",
@@ -46,9 +44,9 @@ const Login = (props) => {
               }}
             >
               کلیه حقوق مادی و معنوی پلتفرم متعلق به آموزشگاه این‌پوینت می باشد
-            </p>
+            </p> */}
           </div>
-          <div className="col-md-2 whiteBox">
+          <div className="col-md-2 whiteBox ">
             <div className={"boxContainer"}>
               {router.query.forStudent ? (
                 router.query.type && router.query.type?.trim() === "FREE" ? (
