@@ -86,6 +86,7 @@ const Filters = (props) => {
             variant="secondary"
             onClick={() => copy("2")}
             className="link"
+            style={{ backgroundColor: "#ccc" }}
           >
             RTMP کلید
           </Button>
@@ -118,7 +119,7 @@ const Filters = (props) => {
       </div>
       <div className="links col-12 col-md-5">
         <Button
-          style={{ backgroundColor: status ? "#2e496e" : "#0063b1" }}
+          style={{ backgroundColor: status ? "#ccc" : "#9b9595" }}
           // variant={status ? "danger" : "success"}
           onClick={() => endClass()}
         >

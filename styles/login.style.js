@@ -21,7 +21,7 @@ const LoginContainer = styled.div`
     padding: 0;
   }
   .orangeBox {
-    background-color: #fe8f00;
+    background-color: #0f5f38;
     border-radius: 30px;
     border-bottom-left-radius: 0;
     border-top-left-radius: 0;
@@ -155,7 +155,7 @@ const LoginContainer = styled.div`
   }
 
   .button {
-    background-color: #fe8f00;
+    background-color: #0f5f38;
     height: 40px;
     border-radius: 12px;
     color: white;

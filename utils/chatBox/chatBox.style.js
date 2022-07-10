@@ -26,7 +26,7 @@ export const ChatBoxContainer = styled.div`
 
   .chatBox {
     direction: rtl;
-    background-color: rgb(226, 226, 226);
+    background-color: #5b5b5b;
     height: 92%;
     border-radius: 4px;
     margin: 0;
@@ -100,7 +100,7 @@ export const ChatBoxContainer = styled.div`
     border-radius: 12px;
     border-bottom-right-radius: 2px;
     padding: 6px 12px;
-    background-color: rgb(24, 44, 97);
+    background-color: #999;
     color: #eee;
   }
 

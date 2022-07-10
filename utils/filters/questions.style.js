@@ -6,7 +6,7 @@ export default styled.div`
   display: flex;
   overflow: auto;
   flex-direction: column;
-  background-color: rgb(60, 90, 130) !important;
+  background-color: #323232 !important;
   border-radius: 12px;
   text-align: right;
   padding: 30px;
@@ -67,7 +67,7 @@ export default styled.div`
   }
   .submitBtn {
     min-height: 40px;
-    background-color: #5f88be;
+    background-color: #6f6f6f;
     border-radius: 8px;
     width: 100px;
     border: 0;
@@ -137,7 +137,7 @@ export default styled.div`
   }
 
   .newResultBtn {
-    background-color: #7090e8;
+    background-color: #ccc;
     font-size: 18px;
     color: #fff;
     padding: 8px 16px;

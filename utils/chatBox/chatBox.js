@@ -56,7 +56,7 @@ const ChatBox = (props) => {
         <div className="inputBox">
           {!props.disableChat && (
             <div onClick={sendMsg} className="sendBtn">
-              <IoSend style={{ fontSize: 20 }} color="#111" />
+              <IoSend style={{ fontSize: 20 }} color="#fff" />
             </div>
           )}
           {!props.disableChat && (

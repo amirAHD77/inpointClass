@@ -6,7 +6,7 @@ import LoginContainer from "../../styles/login.style";
 import { colors } from "../../utils/config";
 import Axios from "../../utils/axios";
 import { Container, Row } from "react-bootstrap";
-import pic from "../../public/images/Pic.png";
+import pic from "../../public/images/illus.png";
 import UserPass from "../../utils/login/UserPass";
 import OTP from "../../utils/login/OTP";
 import Public from "../../utils/login/Public";
@@ -24,7 +24,7 @@ const Login = (props) => {
     <LoginContainer colors={colors}>
       <Row>
         <Head>
-          <title>غرب‌آنلاین کانکت-ورود</title>
+          <title>این‌پوینت کانکت-ورود</title>
           <link
             rel="shortcut icon"
             href="/images/inpoint connect logo PNG.png"
@@ -33,7 +33,7 @@ const Login = (props) => {
         <Container className="container" fluid>
           <div className="col-sm-12 col-md-10 orangeBox d-none d-md-block">
             <img className="img" src={pic.src} alt="لوگو" />
-            <p className="heading">غرب‌آنلاین کانکت</p>
+            <p className="heading">این‌پوینت کانکت</p>
             <p className="caption">
               پلتفرم اختصاصی برگزاری کلاس و همایش های آنلاین
             </p>
@@ -45,7 +45,7 @@ const Login = (props) => {
                 color: "#ccc",
               }}
             >
-              کلیه حقوق مادی و معنوی پلتفرم متعلق به آموزشگاه غرب‌آنلاین می باشد
+              کلیه حقوق مادی و معنوی پلتفرم متعلق به آموزشگاه این‌پوینت می باشد
             </p>
           </div>
           <div className="col-md-2 whiteBox">

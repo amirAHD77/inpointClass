@@ -27,7 +27,7 @@ export const OnlineUsersContainer = styled.div`
   .namesBox {
     direction: rtl;
     flex: 1;
-    background-color: rgb(226, 226, 226);
+    background-color: #5b5b5b;
     height: 92%;
     border-radius: 4px;
     padding: 16px;
@@ -51,7 +51,7 @@ export const OnlineUsersContainer = styled.div`
   }
 
   .name {
-    color: #111;
+    color: #fff;
     margin-right: 8px;
     display: flex;
     align-items: center;

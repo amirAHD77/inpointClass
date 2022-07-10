@@ -3,7 +3,7 @@ import styled from "styled-components";
 const AdminContainer = styled.div`
   width: 100vw;
   height: 100vh;
-  background-color: rgb(0, 0, 52);
+  background-color: #5b5b5b;
   padding: 16px;
   .toast {
     width: 100%;
