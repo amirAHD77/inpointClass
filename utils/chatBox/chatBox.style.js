@@ -100,8 +100,8 @@ export const ChatBoxContainer = styled.div`
     border-radius: 12px;
     border-bottom-right-radius: 2px;
     padding: 6px 12px;
-    background-color: #999;
-    color: #eee;
+    background-color: #333;
+    color: #fff;
   }
 
   .name {

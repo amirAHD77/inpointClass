@@ -83,14 +83,14 @@ const Filters = (props) => {
             RTMP لینک
           </Button>
           <Button
-            variant="secondary"
+            variant="primary"
             onClick={() => copy("2")}
             className="link"
             style={{ backgroundColor: "#ccc" }}
           >
             RTMP کلید
           </Button>
-          <Button variant="warning" onClick={() => copy("3")} className="link">
+          <Button variant="primary" onClick={() => copy("3")} className="link">
             لینک کلاس
           </Button>
         </Row>
