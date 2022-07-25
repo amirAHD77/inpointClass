@@ -55,6 +55,7 @@ const Admin = () => {
       transport: ["websocket"],
     });
     socket.current.on("connect", () => {
+      console.log("connnnneeeeeeeeeeeeeeeeeeeeccccccccccccctttttttttttt");
       joinRoom();
     });
 
@@ -232,6 +233,12 @@ const Admin = () => {
     });
   };
   const sendMessage = async (text) => {
+    console.log(
+      "text , classData?.class.class.name , role.current",
+      text,
+      classData?.class.class.name,
+      role.current
+    );
     socket.current.emit(
       "chatMessage",
       {

@@ -46,10 +46,14 @@ const Filters = (props) => {
   const copy = (num) => {
     if (num === "1") {
       navigator.clipboard.writeText(props.classData?.class?.stream_url);
-      window.alert("لینک RTMP کپی شد");
+      setTimeout(() => {
+        window.alert("لینک RTMP کپی شد");
+      }, 400);
     } else if (num === "2") {
       navigator.clipboard.writeText(props.classData?.class?.stream_key);
-      window.alert("کلید RTMP کپی شد");
+      setTimeout(() => {
+        window.alert("کلید RTMP کپی شد");
+      }, 400);
     } else if (num === "3") {
       navigator.clipboard.writeText(
         window.location.origin +
@@ -82,12 +86,7 @@ const Filters = (props) => {
           <Button variant="primary" onClick={() => copy("1")} className="link">
             RTMP لینک
           </Button>
-          <Button
-            variant="primary"
-            onClick={() => copy("2")}
-            className="link"
-            style={{ backgroundColor: "#ccc" }}
-          >
+          <Button variant="primary" onClick={() => copy("2")} className="link">
             RTMP کلید
           </Button>
           <Button variant="primary" onClick={() => copy("3")} className="link">
