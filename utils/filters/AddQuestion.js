@@ -30,7 +30,6 @@ const AddQuestion = (props) => {
 
   useEffect(() => {
     setPageStatus(props.voteResults ? "results" : "add");
-    console.log("props.voteResults", props.voteResults);
   }, [props.voteResults]);
   return (
     <Modal

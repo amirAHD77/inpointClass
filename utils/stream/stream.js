@@ -25,7 +25,6 @@ const Stream = (props) => {
   }, []);
   return (
     <StreamContainer>
-      {console.log("class data", props.classData)}
       {props.classData?.class?.display?.status ||
       props.classData?.class?.class?.display?.status ? (
         <div className="streamBox">

@@ -59,7 +59,7 @@ const Filters = (props) => {
         window.location.origin +
           "/login?forStudent=true&type=" +
           props.classData?.class?.class?.login_type +
-          " &href=" +
+          "&href=" +
           window.location.href
       );
       setTimeout(() => {
