@@ -20,7 +20,6 @@ const AddQuestion = (props) => {
   }, [props.question?.id]);
 
   const submit = () => {
-    console.log("selectedAnswer", selectedAnswer);
     setAnswered(true);
     props.socket.emit("answerVote", {
       id: item.id + 1,

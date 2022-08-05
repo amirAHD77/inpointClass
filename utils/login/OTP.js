@@ -18,12 +18,14 @@ const OTP = (props) => {
       const res = await Axios.post("v1/auth/otp/step1", {
         phone_number: val.mob_number,
       });
+      console.log("res :>> ", res);
       setPhone(val.mob_number);
       setStep(2);
       setLoading(false);
     } catch (err) {
       // setWrongPass(true);
       // console.log("err", err);
+      console.log("err", err);
       setLoading(false);
     }
   };

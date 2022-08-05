@@ -63,7 +63,7 @@ const Filters = (props) => {
           window.location.href
       );
       setTimeout(() => {
-        window.alert("لینک کلاس کپی شد");
+        window.alert("لینک رویداد کپی شد");
       }, 400);
     }
   };
@@ -90,7 +90,7 @@ const Filters = (props) => {
             RTMP کلید
           </Button>
           <Button variant="primary" onClick={() => copy("3")} className="link">
-            لینک کلاس
+            لینک رویداد
           </Button>
         </Row>
       </Modal>

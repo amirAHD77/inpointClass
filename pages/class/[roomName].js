@@ -232,6 +232,8 @@ const Admin = () => {
   const joinRoom = () => {
     const userId = sessionStorage.getItem("userId");
 
+    console.log("userId", userId);
+
     socket.current.emit("joinRoom", {
       fullName: name.current,
       room: classData?.class?.class?.name,

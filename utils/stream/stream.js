@@ -64,7 +64,7 @@ const Stream = (props) => {
         <div className="stream_warning">
           <span>
             {props.role === "TEACHER"
-              ? "استاد عزیز لطفا ابتدا استریم را فعال کنید"
+              ? "لطفا ابتدا استریم را فعال کنید"
               : "استاد هنوز استریم را فعال نکرده است"}
           </span>
         </div>
