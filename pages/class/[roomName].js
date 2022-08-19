@@ -94,7 +94,7 @@ const Admin = () => {
             : window.location.origin +
                 "/login?forStudent=true&type=" +
                 classData?.class?.class?.login_type +
-                " &href=" +
+                "&href=" +
                 window.location.href
         );
       }
@@ -171,6 +171,8 @@ const Admin = () => {
       getClassData();
     }, 400);
   }, []);
+
+  console.log("classData", classData);
 
   const getClassData = async () => {
     if (!Router.query.roomName) {

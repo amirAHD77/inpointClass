@@ -21,7 +21,7 @@ const Login = (props) => {
       setForStudent(!!router.query.forStudent);
   }, [router.query]);
   useEffect(() => {
-    sessionStorage.setItem("url", window.location.href);
+    if (window) sessionStorage.setItem("url", window.location.href);
   }, []);
   return (
     <LoginContainer colors={colors}>
